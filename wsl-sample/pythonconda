@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+source /home/tomzorz/anaconda3/etc/profile.d/conda.sh
+conda activate ENVNAME
+python "$@"
