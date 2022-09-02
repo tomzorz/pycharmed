@@ -42,6 +42,14 @@ To search / install / list packages:
 
 `conda list`
 
+To export a minimal env that should work cross-platform:
+
+`conda activate ENVNAME`
+
+`conda env export --from-history > environment.yml`
+
+Then remove the last `prefix` line from the generated file.
+
 ## Pycharm things
 
 Set up a new python interpreter via File > Settings > Project: YOURPROJECT > Python Interpreter > + Button
